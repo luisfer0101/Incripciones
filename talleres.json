@@ -1,0 +1,17 @@
+[
+    {
+        "Codigo": "T001",
+        "Nombre": "Electrónica Básica",
+        "Costo": 150
+    },
+    {
+        "Codigo": "T002",
+        "Nombre": "Programación C#",
+        "Costo": 200
+    },
+    {
+        "Codigo": "T003",
+        "Nombre": "Robótica",
+        "Costo": 300
+    }
+]

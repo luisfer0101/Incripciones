@@ -1,0 +1,12 @@
+[
+    {
+        "Codigo": "T001",
+        "Nombre": "Robótica",
+        "Costo": 200
+    },
+    {
+        "Codigo": "T002",
+        "Nombre": "Programación",
+        "Costo": 250
+    }
+]

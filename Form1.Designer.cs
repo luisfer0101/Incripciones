@@ -28,38 +28,41 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.buttonInscripciones = new System.Windows.Forms.Button();
+            this.buttonReporte = new System.Windows.Forms.Button();
+            this.buttonCerrar = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // button1
+            // buttonInscripciones
             // 
-            this.button1.Location = new System.Drawing.Point(134, 108);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(143, 66);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Inscripciones";
-            this.button1.UseVisualStyleBackColor = true;
+            this.buttonInscripciones.Location = new System.Drawing.Point(134, 108);
+            this.buttonInscripciones.Name = "buttonInscripciones";
+            this.buttonInscripciones.Size = new System.Drawing.Size(143, 66);
+            this.buttonInscripciones.TabIndex = 0;
+            this.buttonInscripciones.Text = "Inscripciones";
+            this.buttonInscripciones.UseVisualStyleBackColor = true;
+            this.buttonInscripciones.Click += new System.EventHandler(this.buttonInscripciones_Click);
             // 
-            // button2
+            // buttonReporte
             // 
-            this.button2.Location = new System.Drawing.Point(134, 213);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(143, 66);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Reporte";
-            this.button2.UseVisualStyleBackColor = true;
+            this.buttonReporte.Location = new System.Drawing.Point(134, 213);
+            this.buttonReporte.Name = "buttonReporte";
+            this.buttonReporte.Size = new System.Drawing.Size(143, 66);
+            this.buttonReporte.TabIndex = 1;
+            this.buttonReporte.Text = "Reporte";
+            this.buttonReporte.UseVisualStyleBackColor = true;
+            this.buttonReporte.Click += new System.EventHandler(this.buttonReporte_Click);
             // 
-            // button3
+            // buttonCerrar
             // 
-            this.button3.Location = new System.Drawing.Point(134, 314);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(143, 66);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Cerrar";
-            this.button3.UseVisualStyleBackColor = true;
+            this.buttonCerrar.Location = new System.Drawing.Point(134, 314);
+            this.buttonCerrar.Name = "buttonCerrar";
+            this.buttonCerrar.Size = new System.Drawing.Size(143, 66);
+            this.buttonCerrar.TabIndex = 2;
+            this.buttonCerrar.Text = "Cerrar";
+            this.buttonCerrar.UseVisualStyleBackColor = true;
+            this.buttonCerrar.Click += new System.EventHandler(this.buttonCerrar_Click);
             // 
             // label1
             // 
@@ -77,9 +80,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(439, 450);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.buttonCerrar);
+            this.Controls.Add(this.buttonReporte);
+            this.Controls.Add(this.buttonInscripciones);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -89,9 +92,9 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button buttonInscripciones;
+        private System.Windows.Forms.Button buttonReporte;
+        private System.Windows.Forms.Button buttonCerrar;
         private System.Windows.Forms.Label label1;
     }
 }
